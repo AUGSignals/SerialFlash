@@ -61,8 +61,8 @@ in the strings section.
 Strings are null terminated.  The remainder of the chip is file data.
 */
 
-#define DEFAULT_MAXFILES      600
-#define DEFAULT_STRINGS_SIZE  25560
+#define DEFAULT_MAXFILES      20000
+#define DEFAULT_STRINGS_SIZE  262140
 
 
 static uint32_t check_signature(void)
